@@ -1,0 +1,58 @@
+Algoritmo sistema_de_calificacion_unidad_educativa_cuidad_depedreguer
+		Escribir " ingrese su nombre"
+		Leer nombre
+		Escribir " ingrese su curso"
+		Leer curso
+		Escribir " ingrese la nota del 1 trimestre"
+		escribir "1re percial"
+		Leer notaA
+		escribir "2re percial"
+		Leer notaB
+		Escribir "examen"
+		leer exa1
+		div1<-(notaA+notaB+exa1)/3
+		Escribir "nota del 1 trimestre"
+		escribir div1
+		escribir"---------------------------------------------------------------------"
+		Escribir " ingrese la nota del 2 trimestre"
+		escribir "1re percial"
+		Leer nota1
+		escribir "2re percial"
+		Leer nota2
+		Escribir "examen"
+		leer exa2
+		div2<-(nota1+nota2+exa2)/3
+		Escribir "nota del 2 trimestre"
+		Escribir  div2
+		
+		escribir"------------------------------------------------------------------------"
+		Escribir " ingrese la nota del 3 trimestre"
+		escribir "1re percial"
+		Leer notad
+		escribir "2re percial"
+		Leer notae
+		Escribir "examen"
+		Leer  exa3
+		div3<-(notad+notae+exa3)/3
+		Escribir "nota del 3 trimestre"
+		Escribir  div3
+		escribir"-----------------------------------------------------------------"
+		Escribir "el promedio general es"
+		divi4<-(div1+div2+div3) /3
+		Escribir divi4
+		Escribir""
+		si  divi4>=7 Entonces
+			Escribir "arpobado" ;
+		SiNo
+			si divi4=6 Entonces
+				Escribir "reprobado"
+			SiNo
+				
+				si divi4<=5 Entonces
+					Escribir "Demasiado bajo"
+				SiNo
+				FinSi
+				
+			Finsi
+		Finsi
+FinAlgoritmo
